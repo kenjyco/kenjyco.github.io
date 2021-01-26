@@ -1,31 +1,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The kenjyco blog</title>
-    <link>https://kenjyco.github.io/categories/</link>
+    <link>https://kenjy.co/categories/</link>
     <description>Recent content in Categories on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Tue, 26 Jan 2021 03:00:23 -0600</lastBuildDate>
     
-        <atom:link href="https://kenjyco.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://kenjy.co/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>history</title>
-      <link>https://kenjyco.github.io/categories/history/</link>
+      <link>https://kenjy.co/categories/history/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/categories/history/</guid>
+      <guid>https://kenjy.co/categories/history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>personal</title>
-      <link>https://kenjyco.github.io/categories/personal/</link>
+      <link>https://kenjy.co/categories/personal/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/categories/personal/</guid>
+      <guid>https://kenjy.co/categories/personal/</guid>
       <description></description>
     </item>
     

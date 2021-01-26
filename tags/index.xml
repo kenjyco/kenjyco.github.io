@@ -1,94 +1,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The kenjyco blog</title>
-    <link>https://kenjyco.github.io/tags/</link>
+    <link>https://kenjy.co/tags/</link>
     <description>Recent content in Tags on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Tue, 26 Jan 2021 03:00:23 -0600</lastBuildDate>
     
-        <atom:link href="https://kenjyco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://kenjy.co/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bell-labs</title>
-      <link>https://kenjyco.github.io/tags/bell-labs/</link>
+      <link>https://kenjy.co/tags/bell-labs/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/bell-labs/</guid>
+      <guid>https://kenjy.co/tags/bell-labs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>interview</title>
-      <link>https://kenjyco.github.io/tags/interview/</link>
+      <link>https://kenjy.co/tags/interview/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/interview/</guid>
+      <guid>https://kenjy.co/tags/interview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>people</title>
-      <link>https://kenjyco.github.io/tags/people/</link>
+      <link>https://kenjy.co/tags/people/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/people/</guid>
+      <guid>https://kenjy.co/tags/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unix</title>
-      <link>https://kenjyco.github.io/tags/unix/</link>
+      <link>https://kenjy.co/tags/unix/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/unix/</guid>
+      <guid>https://kenjy.co/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video</title>
-      <link>https://kenjyco.github.io/tags/video/</link>
+      <link>https://kenjy.co/tags/video/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/video/</guid>
+      <guid>https://kenjy.co/tags/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>https://kenjyco.github.io/tags/learning/</link>
+      <link>https://kenjy.co/tags/learning/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/learning/</guid>
+      <guid>https://kenjy.co/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>manifesto</title>
-      <link>https://kenjyco.github.io/tags/manifesto/</link>
+      <link>https://kenjy.co/tags/manifesto/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/manifesto/</guid>
+      <guid>https://kenjy.co/tags/manifesto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>https://kenjyco.github.io/tags/teaching/</link>
+      <link>https://kenjy.co/tags/teaching/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/teaching/</guid>
+      <guid>https://kenjy.co/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>volunteering</title>
-      <link>https://kenjyco.github.io/tags/volunteering/</link>
+      <link>https://kenjy.co/tags/volunteering/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/tags/volunteering/</guid>
+      <guid>https://kenjy.co/tags/volunteering/</guid>
       <description></description>
     </item>
     

@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>learning on The kenjyco blog</title>
-    <link>https://kenjyco.github.io/tags/learning/</link>
+    <link>https://kenjy.co/tags/learning/</link>
     <description>Recent content in learning on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://kenjyco.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://kenjy.co/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal Manifesto</title>
-      <link>https://kenjyco.github.io/manifesto/</link>
+      <link>https://kenjy.co/manifesto/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjyco.github.io/manifesto/</guid>
+      <guid>https://kenjy.co/manifesto/</guid>
       <description>&lt;p&gt;As a person of color that has been a part of the software industry for over 15
 years, I want to emphasize the importance of lifelong learning, volunteering,
 and mentorship at all levels. No matter where you are in life, you can always
