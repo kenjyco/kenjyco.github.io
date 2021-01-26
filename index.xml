@@ -1,106 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The kenjyco blog</title>
-    <link>https://kenjy.co/</link>
+    <link>https://kenjy.co/index.html</link>
     <description>Recent content on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://kenjy.co/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Posts</title>
-      <link>https://kenjy.co/post/</link>
-      <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
-      
-      <guid>https://kenjy.co/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://kenjy.co/archives/</link>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenjy.co/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal Manifesto</title>
-      <link>https://kenjy.co/manifesto/</link>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenjy.co/manifesto/</guid>
-      <description>&lt;p&gt;As a person of color that has been a part of the software industry for over 15
-years, I want to emphasize the importance of lifelong learning, volunteering,
-and mentorship at all levels. No matter where you are in life, you can always
-learn something from someone else and you can always further your growth by
-sharing what you know with others. When you share your experiences, you build
-connections. When you take the time to teach, you strengthen your own
-understanding, especially when you need to relate information to your audience
-in new ways that make sense to them.&lt;/p&gt;
-&lt;p&gt;Over the last 6 years I have spent my free time maintaining open source
-libraries and tools on &lt;a href=&#34;https://github.com/kenjyco&#34;&gt;github&lt;/a&gt; to simplify and
-enhance the developer experience. During that time I&amp;rsquo;ve also been trying to
-pique the interest of elementary and middle school students in open source ideas
-as a volunteer teacher. I think the most important aspect of my volunteering is
-being genuine with the kids and taking an interest in them as individuals. It
-can be impactful for them to see someone that looks like them, doing things with
-technology, being generous with materials, and being a positive role model.
-Patience and humility are key when working with students that are largely
-disengaged from school.&lt;/p&gt;
-&lt;p&gt;In my career so far, I&amp;rsquo;ve always received the most satisfaction when things I
-create make the jobs of my coworkers suck less. For personal projects, that
-satisfaction comes from knowing I added something &amp;ldquo;commit worthy&amp;rdquo; to one of my
-public git repos that I can reference and use forever.&lt;/p&gt;
-&lt;h1 id=&#34;moving-forward&#34;&gt;Moving forward&lt;/h1&gt;
-&lt;p&gt;As I&amp;rsquo;ve been thinking about what I want to do with the rest of my life, I felt
-it would make sense to state my intentions publicly.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;My mission is to help developers and engineers early in their careers&lt;/strong&gt; gain
-success, find fulfillment, and establish a solid knowledge base that they can
-build on by sharing informative video tutorials and reflections on how to learn
-from mistakes I&amp;rsquo;ve made over the years to shorten the learning curve. I
-especially want to help those that have already had their first couple roles and
-are plotting their next move.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I want to help individuals tailor their own self-directed learning journeys,&lt;/strong&gt;
-whether they have recently decided to get into tech, have just started reading
-their first books on programming, have been watching YouTube videos to learn and
-practice, are taking online courses, have invested time and money in an
-intensive bootcamp, or spent even more time and money for university training.
-At each stage, I want to help current and prospective engineers discover and
-engage.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I want to revive an understanding and appreciation of the interesting parts of
-tech history.&lt;/strong&gt; From research and development in computing at Bell Labs in the
-1970s that brought C and UNIX, the free and open-source movement of the 1980s
-and 1990s that influenced collaboration, through the popular languages,
-frameworks, libraries, and tools in use today that power tech companies of all
-sizes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I want to host discussions between people of a variety of backgrounds and
-experience levels.&lt;/strong&gt; I want experts sharing their passions, their favorite
-tools, their most effective processes for creating, maintaining, and releasing
-software, their journey to where they are now in tech, how they collaborate,
-advice for others coming up (or to their younger selves), and what they want to
-learn next. I want newbies to talk about what got them interested in tech, what
-they are currently learning, what challenges they are facing, what their
-aspirations are, and what they are most excited about. I want to match potential
-mentors and mentees within my network and beyond.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I want to start promoting my open source tools and put out video tutorials&lt;/strong&gt; on
-why they are useful and what people can do with them. These are things that have
-made me a better engineer and have allowed me to more easily build useful
-command-line tools for work and personal projects.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I want to help kids discover, build, and retain a passion for learning for
-learning&amp;rsquo;s sake.&lt;/strong&gt; I want to expand my volunteer efforts of the last six years and
-establish a shareable blueprint for other volunteers. I want to share my
-processes for learning and practicing new things. I want to share how I capture
-random ideas, brainstorm, and decide what to acton&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Last, I want to help professionals figure out their priorities in life, make
-time for what matters, and avoid burnout.&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
