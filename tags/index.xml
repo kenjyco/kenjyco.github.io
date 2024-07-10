@@ -1,157 +1,148 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The kenjyco blog</title>
-    <link>https://kenjy.co/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 10:47:27 -0500</lastBuildDate>
     
-        <atom:link href="https://kenjy.co/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cli</title>
-      <link>https://kenjy.co/tags/cli/</link>
+      <link>/tags/cli/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/tags/cli/</guid>
+      <guid>/tags/cli/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://kenjy.co/tags/linux/</link>
+      <title>linux wifi</title>
+      <link>/tags/linux-wifi/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/tags/linux/</guid>
+      <guid>/tags/linux-wifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell functions</title>
-      <link>https://kenjy.co/tags/shell-functions/</link>
+      <link>/tags/shell-functions/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/tags/shell-functions/</guid>
+      <guid>/tags/shell-functions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tab complete</title>
-      <link>https://kenjy.co/tags/tab-complete/</link>
+      <link>/tags/tab-complete/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/tags/tab-complete/</guid>
+      <guid>/tags/tab-complete/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>https://kenjy.co/tags/tips/</link>
+      <link>/tags/tips/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wifi</title>
-      <link>https://kenjy.co/tags/wifi/</link>
-      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
-      
-      <guid>https://kenjy.co/tags/wifi/</guid>
+      <guid>/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bell-labs</title>
-      <link>https://kenjy.co/tags/bell-labs/</link>
+      <link>/tags/bell-labs/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjy.co/tags/bell-labs/</guid>
+      <guid>/tags/bell-labs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>interview</title>
-      <link>https://kenjy.co/tags/interview/</link>
+      <link>/tags/interview/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjy.co/tags/interview/</guid>
+      <guid>/tags/interview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>people</title>
-      <link>https://kenjy.co/tags/people/</link>
+      <link>/tags/people/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjy.co/tags/people/</guid>
+      <guid>/tags/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unix</title>
-      <link>https://kenjy.co/tags/unix/</link>
+      <link>/tags/unix/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjy.co/tags/unix/</guid>
+      <guid>/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video</title>
-      <link>https://kenjy.co/tags/video/</link>
+      <link>/tags/video/</link>
       <pubDate>Tue, 26 Jan 2021 03:00:23 -0600</pubDate>
       
-      <guid>https://kenjy.co/tags/video/</guid>
+      <guid>/tags/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>https://kenjy.co/tags/learning/</link>
+      <link>/tags/learning/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjy.co/tags/learning/</guid>
+      <guid>/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>manifesto</title>
-      <link>https://kenjy.co/tags/manifesto/</link>
+      <link>/tags/manifesto/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjy.co/tags/manifesto/</guid>
+      <guid>/tags/manifesto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>https://kenjy.co/tags/teaching/</link>
+      <link>/tags/teaching/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjy.co/tags/teaching/</guid>
+      <guid>/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>volunteering</title>
-      <link>https://kenjy.co/tags/volunteering/</link>
+      <link>/tags/volunteering/</link>
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjy.co/tags/volunteering/</guid>
+      <guid>/tags/volunteering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://kenjy.co/tags/index/</link>
+      <link>/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kenjy.co/tags/index/</guid>
+      <guid>/tags/index/</guid>
       <description></description>
     </item>
     

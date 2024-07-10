@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="en-us"><head itemscope itemtype="https://kenjy.co/">
+<html prefix="og: http://ogp.me/ns#" lang="en-us"><head itemscope itemtype="">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
@@ -13,18 +13,18 @@
   <meta name="application-name" content="The kenjyco blog" />
   <meta property="og:site_name" content="The kenjyco blog" />
   
-  <base href="https://kenjy.co/post/when-to-make-shell-wrappers/">
-  <link rel="canonical" href="https://kenjy.co/post/when-to-make-shell-wrappers/" itemprop="url" />
-  <meta name="url" content="https://kenjy.co/post/when-to-make-shell-wrappers/" />
-  <meta name="twitter:url" content="https://kenjy.co/post/when-to-make-shell-wrappers/" />
-  <meta property="og:url" content="https://kenjy.co/post/when-to-make-shell-wrappers/" />
+  <base href="../../post/when-to-make-shell-wrappers/">
+  <link rel="canonical" href="../../post/when-to-make-shell-wrappers/" itemprop="url" />
+  <meta name="url" content="/post/when-to-make-shell-wrappers/" />
+  <meta name="twitter:url" content="/post/when-to-make-shell-wrappers/" />
+  <meta property="og:url" content="/post/when-to-make-shell-wrappers/" />
   
   
     
-      <meta itemprop="image" content="https://kenjy.co/images/electronics-board.jpg" />
-      <meta property="og:image" content="https://kenjy.co/images/electronics-board.jpg" />
-      <meta name="twitter:image" content="https://kenjy.co/images/electronics-board.jpg" />
-      <meta name="twitter:image:src" content="https://kenjy.co/images/electronics-board.jpg" />
+      <meta itemprop="image" content="images/electronics-board.jpg" />
+      <meta property="og:image" content="images/electronics-board.jpg" />
+      <meta name="twitter:image" content="images/electronics-board.jpg" />
+      <meta name="twitter:image:src" content="images/electronics-board.jpg" />
     
   
   <meta name="twitter:card" content="summary_large_image" />
@@ -51,9 +51,7 @@
     
       <meta property="article:tag" content="tab complete" />
     
-      <meta property="article:tag" content="wifi" />
-    
-      <meta property="article:tag" content="linux" />
+      <meta property="article:tag" content="linux wifi" />
     
   
 
@@ -72,12 +70,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   
     
-    <link rel="stylesheet" href="https://kenjy.co/css/styles.min.ef433e47a104e30937dfad230e28b6dd329c9b4fe18ff4925850da1f24df3133.css" integrity="sha256-70M&#43;R6EE4wk3360jDii23TKcm0/hj/SSWFDaHyTfMTM=">
+    <link rel="stylesheet" href="../../css/styles.min.ef433e47a104e30937dfad230e28b6dd329c9b4fe18ff4925850da1f24df3133.css" integrity="sha256-70M&#43;R6EE4wk3360jDii23TKcm0/hj/SSWFDaHyTfMTM=">
   
 
   
     
-        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="The kenjyco blog" />
+        <link href="../../index.xml" rel="alternate" type="application/rss+xml" title="The kenjyco blog" />
     
     
   
@@ -89,7 +87,7 @@
 <body class="bg-gradient flex flex-col min-h-screen">
   <header id="header" class="w-full m-0 fixed z-10 transition-all duration-300 ease-in-out border-t-4 border-gray-300 backdrop-filter-blur">
     <div id="header-container" class="max-w-7xl mx-auto p-6 flex items-center flex-wrap lg:flex-no-wrap relative justify-between">
-      <a href="https://kenjy.co/" class="tracking-tighter leading-10 text-3xl font-semibold text-gray-600 flex flex-shrink-0">
+      <a href="../../" class="tracking-tighter leading-10 text-3xl font-semibold text-gray-600 flex flex-shrink-0">
         The kenjyco blog
       </a>
 
@@ -147,7 +145,7 @@
   
   
     <li>
-      <a class="block p-2 opacity-75 hover:opacity-100 transition duration-300 ease-in-out" title="Feed" href="/index.xml">
+      <a class="block p-2 opacity-75 hover:opacity-100 transition duration-300 ease-in-out" title="Feed" href="../../index.xml">
         <svg class="fill-current w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <title>RSS</title>
           <path
@@ -164,11 +162,11 @@
           <ul class="w-full flex flex-col lg:flex-row justify-end items-end lg:items-center">
   
     <li class="flex my-2 lg:my-2 mx-1 lg:mx-2">
-      <a title="Archives" class="uppercase font-bold lg:py-2 lg:px-3 rounded text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="/archives">Archives</a>
+      <a title="Archives" class="uppercase font-bold lg:py-2 lg:px-3 rounded text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="../../archives">Archives</a>
     </li>
   
     <li class="flex my-2 lg:my-2 mx-1 lg:mx-2">
-      <a title="Manifesto" class="uppercase font-bold lg:py-2 lg:px-3 rounded text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="/manifesto">Manifesto</a>
+      <a title="Manifesto" class="uppercase font-bold lg:py-2 lg:px-3 rounded text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="../../manifesto">Manifesto</a>
     </li>
   
 </ul>
@@ -190,34 +188,30 @@
           </time>
   
           
-            <a href="https://kenjy.co/tags/cli/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
+            <a href="../../tags/cli/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
               cli
             </a>
           
-            <a href="https://kenjy.co/tags/linux/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
-              linux
+            <a href="../../tags/linux-wifi/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
+              linux wifi
             </a>
           
-            <a href="https://kenjy.co/tags/shell-functions/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
+            <a href="../../tags/shell-functions/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
               shell functions
             </a>
           
-            <a href="https://kenjy.co/tags/tab-complete/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
+            <a href="../../tags/tab-complete/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
               tab complete
             </a>
           
-            <a href="https://kenjy.co/tags/tips/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
+            <a href="../../tags/tips/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
               tips
-            </a>
-          
-            <a href="https://kenjy.co/tags/wifi/" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
-              wifi
             </a>
           
         </small>
 
         <h1 class="leading-9 text-center">
-          <a href="https://kenjy.co/post/when-to-make-shell-wrappers/" class="no-underline inline-block text-black relative">
+          <a href="../../post/when-to-make-shell-wrappers/" class="no-underline inline-block text-black relative">
             <div class="dots" aria-hidden="true"></div>
             When to Make Shell Wrappers
           </a>
@@ -274,7 +268,7 @@ executable files in the <code>$PATH</code> variable), and continue typing the co
     
       <section class="my-5 pt-10 pb-5 border-t border-gray-400 flex items-center">
         
-          <img alt="Avatar photo" class="border border-gray-400 p-1 w-10 h-10 rounded-full mr-3" src="/images/KENJYCO-LLC--K.png">
+          <img alt="Avatar photo" class="border border-gray-400 p-1 w-10 h-10 rounded-full mr-3" src="../../images/KENJYCO-LLC--K.png">
         
 
         <span class="flex-grow">Open Source Enthusiast connecting learners, builders, educators, and teams.</span>
@@ -293,7 +287,7 @@ executable files in the <code>$PATH</code> variable), and continue typing the co
   <aside class="flex">
   
   
-    <a class="w-full md:w-1/2 flex flex-col items-center py-7 px-3 no-underline rounded-md hover:bg-white transition duration-300 ease-in-out" href="/post/unix-and-bell-labs/">
+    <a class="w-full md:w-1/2 flex flex-col items-center py-7 px-3 no-underline rounded-md hover:bg-white transition duration-300 ease-in-out" href="../../post/unix-and-bell-labs/">
       <span class="border border-gray-6 text-xs rounded-md mb-2 uppercase font-bold py-2 px-3">You might enjoy</span>
       <span class="text-center">UNIX and Bell Labs</span>
     </a>

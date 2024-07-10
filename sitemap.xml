@@ -3,145 +3,140 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kenjy.co/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/cli/</loc>
+    <loc>/tags/cli/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/categories/code-snippets/</loc>
+    <loc>/categories/code-snippets/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/linux/</loc>
+    <loc>/tags/linux-wifi/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/shell-functions/</loc>
+    <loc>/tags/shell-functions/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/tab-complete/</loc>
+    <loc>/tags/tab-complete/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/tips/</loc>
+    <loc>/tags/tips/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/post/when-to-make-shell-wrappers/</loc>
+    <loc>/post/when-to-make-shell-wrappers/</loc>
     <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/wifi/</loc>
-    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenjy.co/tags/bell-labs/</loc>
+    <loc>/tags/bell-labs/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/categories/history/</loc>
+    <loc>/categories/history/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/interview/</loc>
+    <loc>/tags/interview/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/people/</loc>
+    <loc>/tags/people/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/unix/</loc>
+    <loc>/tags/unix/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/post/unix-and-bell-labs/</loc>
+    <loc>/post/unix-and-bell-labs/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/video/</loc>
+    <loc>/tags/video/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/</loc>
+    <loc>/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/archives/</loc>
+    <loc>/archives/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/learning/</loc>
+    <loc>/tags/learning/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/manifesto/</loc>
+    <loc>/tags/manifesto/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/categories/personal/</loc>
+    <loc>/categories/personal/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/manifesto/</loc>
+    <loc>/manifesto/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/teaching/</loc>
+    <loc>/tags/teaching/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/volunteering/</loc>
+    <loc>/tags/volunteering/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/tags/index/</loc>
+    <loc>/tags/index/</loc>
   </url>
   
   <url>
-    <loc>https://kenjy.co/true/</loc>
+    <loc>/true/</loc>
   </url>
   
   <url>
-    <loc>https://kenjy.co/vs/</loc>
+    <loc>/vs/</loc>
   </url>
   
 </urlset>

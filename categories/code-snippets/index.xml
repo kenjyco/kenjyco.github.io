@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>code-snippets on The kenjyco blog</title>
-    <link>https://kenjy.co/categories/code-snippets/</link>
+    <link>/categories/code-snippets/</link>
     <description>Recent content in code-snippets on The kenjyco blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 10:47:27 -0500</lastBuildDate>
     
-        <atom:link href="https://kenjy.co/categories/code-snippets/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/code-snippets/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>When to Make Shell Wrappers</title>
-      <link>https://kenjy.co/post/when-to-make-shell-wrappers/</link>
+      <link>/post/when-to-make-shell-wrappers/</link>
       <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
       
-      <guid>https://kenjy.co/post/when-to-make-shell-wrappers/</guid>
+      <guid>/post/when-to-make-shell-wrappers/</guid>
       <description>&lt;p&gt;Often, some command-line tools might have hard-to-remember sequences for certain
 kinds of actions. In these cases, it is completely reasonable to make shell
 function wrappers to those tools.&lt;/p&gt;
