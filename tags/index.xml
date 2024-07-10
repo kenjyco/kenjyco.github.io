@@ -6,10 +6,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Tue, 26 Jan 2021 03:00:23 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 10:47:27 -0500</lastBuildDate>
     
         <atom:link href="https://kenjy.co/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cli</title>
+      <link>https://kenjy.co/tags/cli/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://kenjy.co/tags/linux/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell functions</title>
+      <link>https://kenjy.co/tags/shell-functions/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/shell-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tab complete</title>
+      <link>https://kenjy.co/tags/tab-complete/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/tab-complete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://kenjy.co/tags/tips/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wifi</title>
+      <link>https://kenjy.co/tags/wifi/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/tags/wifi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bell-labs</title>

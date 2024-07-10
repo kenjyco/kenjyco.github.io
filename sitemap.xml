@@ -3,12 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kenjy.co/tags/bell-labs/</loc>
-    <lastmod>2021-01-26T03:00:23-06:00</lastmod>
+    <loc>https://kenjy.co/categories/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kenjy.co/categories/</loc>
+    <loc>https://kenjy.co/tags/cli/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/categories/code-snippets/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/linux/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/post/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/shell-functions/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/tab-complete/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/tips/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/post/when-to-make-shell-wrappers/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/wifi/</loc>
+    <lastmod>2024-07-10T10:47:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenjy.co/tags/bell-labs/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
@@ -24,16 +74,6 @@
   
   <url>
     <loc>https://kenjy.co/tags/people/</loc>
-    <lastmod>2021-01-26T03:00:23-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenjy.co/post/</loc>
-    <lastmod>2021-01-26T03:00:23-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenjy.co/tags/</loc>
     <lastmod>2021-01-26T03:00:23-06:00</lastmod>
   </url>
   
@@ -97,15 +137,7 @@
   </url>
   
   <url>
-    <loc>https://kenjy.co/kenjy-co/</loc>
-  </url>
-  
-  <url>
     <loc>https://kenjy.co/true/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kenjy.co/ua-188247669-1/</loc>
   </url>
   
   <url>

@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on The kenjyco blog</title>
+    <link>https://kenjy.co/tags/cli/</link>
+    <description>Recent content in cli on The kenjyco blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Wed, 10 Jul 2024 10:47:27 -0500</lastBuildDate>
+    
+        <atom:link href="https://kenjy.co/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When to Make Shell Wrappers</title>
+      <link>https://kenjy.co/post/when-to-make-shell-wrappers/</link>
+      <pubDate>Wed, 10 Jul 2024 10:47:27 -0500</pubDate>
+      
+      <guid>https://kenjy.co/post/when-to-make-shell-wrappers/</guid>
+      <description>&lt;p&gt;Often, some command-line tools might have hard-to-remember sequences for certain
+kinds of actions. In these cases, it is completely reasonable to make shell
+function wrappers to those tools.&lt;/p&gt;
+&lt;h2 id=&#34;example-with-nmcli&#34;&gt;Example with nmcli&lt;/h2&gt;
+&lt;p&gt;A good quick example of this is &lt;code&gt;nmcli&lt;/code&gt;, the command-line tool for controlling
+NetworkManager on Linux. The multi-part command for connecting to a wifi network
+is pretty different than reconnecting to a network.&lt;/p&gt;
+&lt;h4 id=&#34;listing-available-networks&#34;&gt;Listing available networks&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;nmcli dev wifi list
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;connecting-for-the-first-time&#34;&gt;Connecting for the first time&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;sudo nmcli --ask dev wifi connect &amp;lt;some-ssid&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;re-connecting-in-the-future&#34;&gt;Re-connecting in the future&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;nmcli con up &amp;lt;some-ssid&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;shell-functions-wrappers-for-nmcli&#34;&gt;Shell functions wrappers for nmcli&lt;/h2&gt;
+&lt;p&gt;Here are some tab-completable shell functions defined in my
+&lt;a href=&#34;https://github.com/kenjyco/base/blob/master/commands.sh&#34;&gt;base/commands.sh&lt;/a&gt;
+file for &lt;code&gt;nmcli&lt;/code&gt; that &lt;strong&gt;should work fine in bash or zsh&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#0086b3&#34;&gt;type&lt;/span&gt; nmcli &amp;amp;&amp;gt;/dev/null; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;then&lt;/span&gt;
+    nmcli-list-networks&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        nmcli dev wifi list | cut -c 28-
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    nmcli-status&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        nmcli dev status
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    nmcli-connect-to&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#008080&#34;&gt;ssid&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$1&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[[&lt;/span&gt; -z &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$ssid&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#0086b3&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;No SSID specified&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;
+        sudo nmcli --ask dev wifi connect &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$ssid&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    nmcli-reconnect-to&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#008080&#34;&gt;ssid&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$1&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[[&lt;/span&gt; -z &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$ssid&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#0086b3&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;No SSID specified&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#099&#34;&gt;1&lt;/span&gt;
+        nmcli con up &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$ssid&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When I want to use one, I just need to &lt;strong&gt;remember that I&amp;rsquo;m &amp;ldquo;trying to do an nmcli
+thing&amp;rdquo;, type &lt;code&gt;nmcli-&amp;lt;tab&amp;gt;&lt;/code&gt;&lt;/strong&gt; (to check for any &amp;ldquo;sourced&amp;rdquo; shell functions or
+executable files in the &lt;code&gt;$PATH&lt;/code&gt; variable), and continue typing the correct option.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

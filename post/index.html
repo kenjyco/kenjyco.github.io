@@ -37,7 +37,7 @@
     <meta name="twitter:description" content="..." />
   
 
-  <meta property="og:updated_time" content=2021-01-26T03:00:23-0600 />
+  <meta property="og:updated_time" content=2024-07-10T10:47:27-0500 />
 
   
 
@@ -99,15 +99,6 @@
         <nav id="nav-social-links" class="p-4 lg:p-0 text-gray-600 hidden lg:block lg:order-last w-full lg:w-auto lg:ml-3">
           <ul class="flex justify-end">
   
-  
-    <li>
-      <a class="block p-2 opacity-75 hover:opacity-100 transition duration-300 ease-in-out" title="Twitter" href="https://www.twitter.com/kenjyco" rel="me">
-        <svg class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-          <title>Twitter</title>
-          <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>
-        </svg>
-      </a>
-    </li>
   
   
   
@@ -179,6 +170,14 @@
   
   
     <article class="article border-b border-gray-400">
+      <h1><a href="https://kenjy.co/post/when-to-make-shell-wrappers/" class="no-underline">When to Make Shell Wrappers</a></h1>
+
+      Often, some command-line tools might have hard-to-remember sequences for certain kinds of actions. In these cases, it is completely reasonable to make shell function wrappers to those tools.
+Example with nmcli A good quick example of this is nmcli, the command-line tool for controlling NetworkManager on Linux. The multi-part command for connecting to a wifi network is pretty different than reconnecting to a network.
+Listing available networks nmcli dev wifi list Connecting for the first time sudo nmcli --ask dev wifi connect &lt;some-ssid&gt; Re-connecting in the future nmcli con up &lt;some-ssid&gt; Shell functions wrappers for nmcli Here are some tab-completable shell functions defined in my base/commands.
+    </article>
+  
+    <article class="article border-b border-gray-400">
       <h1><a href="https://kenjy.co/post/unix-and-bell-labs/" class="no-underline">UNIX and Bell Labs</a></h1>
 
       The Factory of Ideas: Working at Bell Labs Here is a short interview of Brian Kernighan on Computerphile talking about his time at Bell Labs, where he started in the late 60&rsquo;s.
@@ -191,7 +190,7 @@
 
     </main><footer class="w-full max-w-7xl mx-auto text-center border-t border-gray-200 py-9 px-3 mt-9 pin-b text-sm text-gray-500">
   Made with <a href="https://gohugo.io" class="underline transition duration-300 ease-in-out hover:text-blue-600">Hugo</a> and <a href="https://github.com/leonardofaria/bento" class="underline transition duration-300 ease-in-out hover:text-blue-600">Bento theme</a>. 
-  Copyright © 2021
+  Copyright © 2021-2024
 </footer>
 
 <script>
