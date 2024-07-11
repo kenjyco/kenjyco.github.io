@@ -235,7 +235,7 @@ is pretty different than reconnecting to a network.</p>
 <pre><code>sudo nmcli --ask dev wifi connect &lt;some-ssid&gt;
 </code></pre><h4 id="re-connecting-in-the-future">Re-connecting in the future</h4>
 <pre><code>nmcli con up &lt;some-ssid&gt;
-</code></pre><h2 id="shell-functions-wrappers-for-nmcli">Shell functions wrappers for nmcli</h2>
+</code></pre><h2 id="wrapper-shell-functions--for-nmcli">Wrapper shell functions  for nmcli</h2>
 <p>Here are some tab-completable shell functions defined in my
 <a href="https://github.com/kenjyco/base/blob/master/commands.sh">base/commands.sh</a>
 file for <code>nmcli</code> that <strong>should work fine in bash or zsh</strong>:</p>
@@ -261,7 +261,7 @@ file for <code>nmcli</code> that <strong>should work fine in bash or zsh</strong
     <span style="color:#000;font-weight:bold">}</span>
 <span style="color:#000;font-weight:bold">fi</span>
 </code></pre></div><p>When I want to use one, I just need to <strong>remember that I&rsquo;m &ldquo;trying to do an nmcli
-thing&rdquo;, type <code>nmcli-&lt;tab&gt;</code></strong> (to check for any &ldquo;sourced&rdquo; shell functions or
+thing&rdquo; and type <code>nmcli-&lt;tab&gt;</code></strong> (to check for any &ldquo;sourced&rdquo; shell functions or
 executable files in the <code>$PATH</code> variable), and continue typing the correct option.</p>
 
     </div>
