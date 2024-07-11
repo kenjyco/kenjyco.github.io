@@ -19,7 +19,7 @@
       <guid>/post/when-to-make-shell-wrappers/</guid>
       <description>&lt;p&gt;Often, some command-line tools might have hard-to-remember sequences for certain
 kinds of actions. In these cases, it is completely reasonable to make shell
-function wrappers to those tools.&lt;/p&gt;
+functions to &lt;a href=&#34;https://en.wikipedia.org/wiki/Wrapper_function&#34;&gt;wrap&lt;/a&gt; those tools.&lt;/p&gt;
 &lt;h2 id=&#34;example-with-nmcli&#34;&gt;Example with nmcli&lt;/h2&gt;
 &lt;p&gt;A good quick example of this is &lt;code&gt;nmcli&lt;/code&gt;, the command-line tool for controlling
 NetworkManager on Linux. The multi-part command for connecting to a wifi network
@@ -30,7 +30,7 @@ is pretty different than reconnecting to a network.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;sudo nmcli --ask dev wifi connect &amp;lt;some-ssid&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;re-connecting-in-the-future&#34;&gt;Re-connecting in the future&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;nmcli con up &amp;lt;some-ssid&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;wrapper-shell-functions--for-nmcli&#34;&gt;Wrapper shell functions  for nmcli&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;wrapper-shell-functions-for-nmcli&#34;&gt;Wrapper shell functions for nmcli&lt;/h2&gt;
 &lt;p&gt;Here are some tab-completable shell functions defined in my
 &lt;a href=&#34;https://github.com/kenjyco/base/blob/master/commands.sh&#34;&gt;base/commands.sh&lt;/a&gt;
 file for &lt;code&gt;nmcli&lt;/code&gt; that &lt;strong&gt;should work fine in bash or zsh&lt;/strong&gt;:&lt;/p&gt;
@@ -55,9 +55,11 @@ file for &lt;code&gt;nmcli&lt;/code&gt; that &lt;strong&gt;should work fine in b
         nmcli con up &lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#008080&#34;&gt;$ssid&lt;/span&gt;&lt;span style=&#34;color:#d14&#34;&gt;&amp;#34;&lt;/span&gt;
     &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
 &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;fi&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When I want to use one, I just need to &lt;strong&gt;remember that I&amp;rsquo;m &amp;ldquo;trying to do an nmcli
-thing&amp;rdquo; and type &lt;code&gt;nmcli-&amp;lt;tab&amp;gt;&lt;/code&gt;&lt;/strong&gt; (to check for any &amp;ldquo;sourced&amp;rdquo; shell functions or
-executable files in the &lt;code&gt;$PATH&lt;/code&gt; variable), and continue typing the correct option.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When I want to &amp;ldquo;do an &lt;code&gt;nmcli&lt;/code&gt; thing&amp;rdquo; &lt;strong&gt;I just need to type &lt;code&gt;nmcli-&amp;lt;tab&amp;gt;&lt;/code&gt;&lt;/strong&gt; to show
+me the available names (&lt;code&gt;nmcli-connect-to&lt;/code&gt;, &lt;code&gt;nmcli-list-networks&lt;/code&gt;,
+&lt;code&gt;nmcli-reconnect-to&lt;/code&gt;, and &lt;code&gt;nmcli-status&lt;/code&gt;). That&amp;rsquo;s the beauty of
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Command-line_completion&#34;&gt;tab-completion&lt;/a&gt;
+(especially if you name things well)!&lt;/p&gt;
 </description>
     </item>
     
